@@ -1,0 +1,28 @@
+Zadatak 1
+1. pwd
+2. ls
+3. mkdir vjezba1 && cd vjezba1
+4. touch vjezba1/README.md
+5. cd ~
+
+Zadatak 2
+1. mkdir vjezba2 && touch vjezba2/file.txt
+2. cp vjezba2/file.txt vjezba2/file_copy.txt
+3. ls vjezba2
+4. rm vjezba2/file.txt && cs ~ 
+5. rmdir vjezba2 - Ne moze se obrisati jer direktorij nije prazan
+
+Zadatak 3 
+1. mkdir vjezba3 && touch vjezba3/backup
+2. touch vjezba3/notes.txt vjezba3/todo.txt vjezba3/script.sh 
+3. cp vjezba3/* vjezba3/backup/
+4. rm vjezba3/script.sh && ls vjezba3
+5. mkdir vjezba3/backup/USER
+5. mv vjezba3/backup/* vjezba3/backup/USER/
+
+Zadatak 4
+1. mkdir vjezba4/subfolder
+2. touch vjezba4/HOSTNAME
+3. mv vjezba4/HOSTNAME vjezba4/USER
+4. mv vjezba4/USER vjezba4/subfolder
+5. rm /c/Users/anama/OS-vjezbe/vjezba4/subfolder/USER
