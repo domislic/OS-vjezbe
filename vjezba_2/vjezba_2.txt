@@ -1,0 +1,24 @@
+VJEŽBA 2
+
+Zadatak 1. 
+1. mkdir -p vjezba_2/data
+2. mkdir -p vjezba_2/backup
+3. cd vjezba_2
+4. touch data/script.js data/style.css data/.env
+5. echo 'console.log("Hello, World!");' >> data/script.js 
+6. echo 'body { background-color: #f0f0f0; }' >> data/style.css 
+7. echo "VJEZBE=OS" >> data/.env 
+
+Zadatak 2. 
+1. cp -rv data/* backup
+2. cd data && ls -alhS ../backup
+
+Zadatak 3.
+1. find data -type f ! -name '.env' -exec rm -v {} +
+2. cp -rnv backup/* data/
+3. ls -1lthA data
+
+Zadatak 4. 
+1. ls -lahS
+2. ls -lhSA
+3. ls -ls -lh --color -tA
